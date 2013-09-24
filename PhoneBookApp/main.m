@@ -6,8 +6,7 @@ int main(int argc,char* argv[])
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
 
-	PhoneBook *mybook=[[PhoneBook alloc]init];
-	[mybook initWithName:@"PHONEBOOK"];
+	PhoneBook *mybook=[[PhoneBook alloc]initWithName:@"PHONEBOOK"];
 	PhoneCard *pc1,*pc2,*pc3;
 	pc1=[[PhoneCard alloc]init];//To set values instead of add entry.
 	pc2=[[PhoneCard alloc]init];
